@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Parent Look Up</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <title>Material Design Bootstrap</title>
+	    <!-- Font Awesome -->
+	    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+	    <!-- Bootstrap core CSS -->
+	    <link href="booty/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- Material Design Bootstrap -->
+	    <link href="booty/css/mdb.min.css" rel="stylesheet">
+	    <!-- Your custom styles (optional) -->
+	    <link href="booty/css/style.css" rel="stylesheet">
+	    <link href="index.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="landing-overlay">
+		<div id="main" class='vanish'>
+			<ul class="nav justify-content-end z-depth-1 my-nav-finish clearfix">
+			    <li class="my-nav-item">
+			        <a class="my-link" href="#!"> Frimpong <i class="fa fa-caret-down"></i></a>
+			    </li>
+			    
+			</ul>
+
+			<div id="my-content">
+				<div class= 'col-md-8 offset-md-2'>
+					<div class="md-form input-group">
+		                <input type="text" class="form-control" placeholder="Select a school" aria-label="School select" aria-describedby="basic-addon2" style='color:white;' placeholder="selet a school ">
+		                <div class="input-group-append">
+		                    <div class="btn-group">
+		                      <button class="btn btn-elegant waves-effect m-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class='fa fa-caret-down'></i></button>
+		                      <button class="btn btn-success waves-effect m-0 vanish" id='home-button'type="button" ><i class='fa fa-home'></i></button>
+		                      <div class="dropdown-menu">
+		                          <a class="dropdown-item" id='ave'href="#">Ave Maria SCH. of Languages</a>
+		                          <a class="dropdown-item" id='deoke' href="#">Deoke Foundation School</a>
+		                          <a class="dropdown-item" id='dom' href="#">Saint Dominic Preparatory School</a>
+		                      </div>
+		                  </div>
+		                </div>
+		            </div>
+        			<!-- Begin Student Profile -->
+        			<div id="student-profile" style='display:none'>
+        				<div class="profile-card">
+        					<div class="card">
+        						<div class="card-body">
+        							<div class="pull-left" style = 'display:inline-block'>
+        								<img src='img/female-avatar.png' class='profile-pic' />
+        								<h6 class='devil'><b>INSTRUCTOR:</b> <span class='text text-success'>Paa Kwesi</span></h6>
+        								<h6 class='devil'><b>STUDENT:</b> <span class='text text-success'>Elizabeth Opok-Agyemang</span></h6>
+        							</div>
+        							<div class='pull-right' style='margin-top:15px;'> 
+        								<h5 class='perfecto-color'>CLASS: <span class='text text-info'>Primary 6</span></h5>
+        								<h5 class='perfecto-color'>NO: <span class='text text-danger'>45</span> </h5>
+        								<h5 class='perfecto-color'>POSITION: <span class='text text-success'>3</span></h5>
+        								<select>
+        									<option>TERM 1</option>
+        									<option>TERM 2</option>
+        									<option>TERM 3</option>
+        								</select>
+        								<button class='btn btn-elegant btn-sm' id='end-of-term'>End Of Term</button>
+        								 <button class='btn btn-warning btn-sm vanish' id='classwork-button'>Classwork</button>
+        							</div>
+        						</div>
+        					</div>
+    						<!-- Start Report Card -->
+    						<div class="report-card" >
+    								<!-- classwork -->
+    							<div id='classwork' >
+	        						<table class="table">
+										  <thead class="black white-text">
+										    <tr>											      
+										      <th scope="col">SUBJECT</th>
+										      <th scope="col">CLASSWORK 1</th>
+										      <th scope="col">CLASSWORK 2</th>
+										    </tr>
+										  </thead>
+										  <tbody style='background:#272727;'>
+										    <tr>											     
+										      <td>ENGLISH LANGUAGE</td>
+										      <td class='text text-danger'>2/5</td>
+										      <td class='text text-success'>10/10</td>
+										    </tr>
+										    <tr>
+										      
+										      <td>MATHEMATICS</td>
+										      <td>4/5</td>
+										      <td class='text text-danger'>3/10</td>
+										    </tr>
+										    <tr>									      
+										      <td>INTEGRATED SCIENCE</td>
+										      <td>4/5</td>
+										      <td>3/5</td>
+										    </tr>
+										    <tr>									      
+										      <th scope="col">SOCIAL STUDIES</th>
+										      <th scope="col">3/5</th>
+										      <th scope="col">3/5</th>
+										    </tr>
+										    <tr>
+										      <td>RELIGIOUS AND MORAL EDU.</td>
+										      <td class='text text-danger'>2/5</td>
+										      <td>6/10</td>
+										    </tr>
+										    <tr>									      
+										      <td>FRENCH</td>
+										      <td class='text text-danger'>2/10</td>
+										      <td class='text text-danger'>0/10</td>
+										    </tr>
+										    <tr>									      
+										      <td>ASANTE TWI</td>
+										      <td class='text text-success'>5/5</td>
+										      <td>8/10</td>
+										    </tr>
+										    <tr>
+										      
+										      <td>BASIC DESIGN AND TECHNOLOGY</td>
+										      <td>5/10</td>
+										      <td class='text text-success'>10/10</td>
+										    </tr>
+										    <tr>
+										      
+										      <td>ASANTE TWI</td>
+										      <td>5/5</td>
+										      <td class='text text-success'>10/10</td>
+										    </tr>
+										      <tr>
+										      
+										      <td>ICT</td>
+										      <td>5/5</td>
+										      <td class='text text-danger'>0/5</td>
+										    </tr>
+
+										  </tbody>
+										</table>
+									</div>
+									<!-- end classwork -->
+
+											<!-- End of term div -->
+									<div id="end-of-term-div" style='display:none'>
+										<table class="table">
+										  <thead class="black white-text">
+										    <tr>											      
+										      <th scope="col">SUBJECT</th>
+										      <th scope="col">SCORES</th>
+										      <th scope="col">GRADE</th>
+										    </tr>
+										  </thead>
+										  <tbody style='background:#272727;'>
+										    <tr>											     
+										      <td>ENGLISH LANGUAGE</td>
+										      <td >90</td>
+										      <td >1</td>
+										    </tr>
+										    <tr>
+										      
+										      <td>MATHEMATICS</td>
+										      <td>85</td>
+										      <td >1</td>
+										    </tr>
+										    <tr>									      
+										      <td>INTEGRATED SCIENCE</td>
+										      <td>92</td>
+										      <td>1</td>
+										    </tr>
+										    <tr>									      
+										      <th scope="col">SOCIAL STUDIES</th>
+										      <th scope="col">91</th>
+										      <th scope="col">1</th>
+										    </tr>
+										    <tr>
+										      <td>RELIGIOUS AND MORAL EDU.</td>
+										      <td >80</td>
+										      <td>2</td>
+										    </tr>
+										    <tr>									      
+										      <td>FRENCH</td>
+										      <td >84</td>
+										      <td >2</td>
+										    </tr>
+										    <tr>									      
+										      <td>ASANTE TWI</td>
+										      <td >79</td>
+										      <td>3</td>
+										    </tr>
+										    <tr>
+										      
+										      <td>BASIC DESIGN AND TECHNOLOGY</td>
+										      <td>99</td>
+										      <td >1</td>
+										    </tr>
+										      <tr>								      
+										      <td>ICT</td>
+										      <td>97</td>
+										      <td >1</td>
+										    </tr>
+
+										  </tbody>
+										</table>
+										
+									</div>
+									<!-- End end of term div -->
+								</div>
+    							<!-- End Report Card -->
+    						</div>
+        			</div>
+        			<!-- End Student Profile -->
+
+		            	<!-- OPTIONS DIV -->
+		            	<div id='human-options'	style='display:none'>
+		            		<div class='Ave-div'>
+				            	<div class="card" style='margin-bottom:10px;'>
+				            		<div class="card-body clearfix">
+				            			<button class='btn btn-info pull-right' id='eliza-go'>Go</button>
+				            			<div class="pull-left">
+				            				<h4 class='devil'><span class='fa fa-user devil perfecto-color' style='font-size:3rem;margin:5px;'></span>Elizabeth Opoku-Agyemang <small><span class='text text-default'>Ave Maria - </span><span class='text text-danger'>Primary 6</span></small></h4>
+				            			</div>
+				            			
+				            		</div>
+				            	</div>
+				            	<div class="card" style='margin-bottom:10px;'>
+				            		<div class="card-body clearfix">
+				            			<button class='btn btn-info pull-right'>Go</button>
+				            			<div class="pull-left">
+				            				<h4 class='devil'><span class='fa fa-user devil perfecto-color' style='font-size:3rem;margin:5px;'></span>Faddal Ibrahim <small><span class='text text-default'>Ave Maria - </span><span class='text text-danger'>JHS 2</span></small></h4>
+				            			</div>
+				            			
+				            		</div>
+				            	</div>
+				            </div>
+				            	<!-- END OF AVE DIV -->
+				            			<!-- BEGIN DEOKE DIV -->
+				            	<div id="Deoke-div" class='vanish'>
+				            		<div class="card" style='margin-bottom:10px;'>
+					            		<div class="card-body clearfix" style='margin-bottom:10px;'>
+					            			<button class='btn btn-info pull-right'>Go</button>
+					            			<div class="pull-left">
+					            				<h4 class='devil'><span class='fa fa-user devil perfecto-color' style='font-size:3rem;margin:5px;'></span>Wanzam Michaelson <small><span class='text text-default'>Deoke Foundation - </span><span class='text text-danger'>JHS 2</span></small></h4>
+					            			</div>
+					            			
+					            		</div>
+				            		</div>
+				            	</div>
+				            		<!-- END DEOKE DIV -->
+				            			<!-- BEGIN SAINT DIV -->
+				            	<div id="Saint-div" class='vanish'>
+				            		<div class="card" style='margin-bottom:10px;'>
+					            		<div class="card-body clearfix" style='margin-bottom:10px;'>
+					            			<p class='devil perfecto-color'> You have no child in this school... <i class="fa fa-search"></i></p>
+					            			
+					            		</div>
+				            		</div>
+				            	</div>
+			            </div>
+			            	<!-- END OPTIONS DIV -->
+			            		<!-- Begin Pages -->
+			            <div id='pages'>
+			            		<!-- Begin Announcement page -->
+			            	<div id='ann-page ' style='display:none'>
+				            	<div class="card">
+				            		<div class="card-body">
+				            			<H5 class='upper devil'><i class='fa fa-bullhorn'></i> ANNOUNCEMENTS </H5>
+				            			<hr>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>If you cant explain it simply, you don't understand it well enough.</p>
+				            				<small class='text text-danger pull-right'> ~ Albert Einstein</small>
+				            			</div>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>If you cant explain it simply, you don't understand it well enough.</p>
+				            				<small class='text text-danger pull-right'> ~ Albert Einstein</small>
+				            			</div>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>If you cant explain it simply, you don't understand it well enough.</p>
+				            				<small class='text text-danger pull-right'> ~ Albert Einstein</small>
+				            			</div>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>If you cant explain it simply, you don't understand it well enough.</p>
+				            				<small class='text text-danger pull-right'> ~ Albert Einstein</small>
+				            			</div>
+				            		</div>	
+
+				            	</div>
+				            </div>
+			            		<!-- End Announcement page -->
+			            	<!-- Begin Comment page -->
+			            	<div id='comment-page' class='vanish'>
+				            	<div class="card">
+				            		<div class="card-body height-perfection">
+				            			<H5 class='upper devil'><i class='fa fa-comment'></i> LEAVE A MESSAGE/SUGGESTION/COMPLAINT </H5>
+				            			<hr>
+				            			<div class='ann-text clearfix'>
+				            				<small class='badge badge-pill indigo'>Mrs. Duna</small>
+				            				<p class='perfecto-color'>I don't like the way the students make noise after school, why? why? Mtseeew! </p>
+				            				<small class='badge badge-pill green'>Reply</small>
+				            				<p class='perfecto-color'>We are still working on that, its a headache for us to Mrs Duna.</p>
+				            				
+				            			</div>
+										<div class='ann-text clearfix'>
+				            				<small class='badge badge-pill indigo'>Mrs. Belinda</small>
+				            				<p class='perfecto-color'>I paid all my ward's school fees but you still sacked my ward home</p>
+				            				<small class='badge badge-pill green'>Reply</small>
+				            				<p class='perfecto-color'>We are really sorry for that, the teachers sacked the students before they were updated with the new list.</p>			            				
+				            			</div>
+				            			
+				            		</div>	
+
+				            	</div>
+				            </div>
+			            		<!-- End Comment page -->
+			            		<!-- Begin Bus-tracking page -->
+			            	<div id='bus-page'  class='vanish'>
+				            	<div class="card">
+				            		<div class="card-body height-perfection">
+				            			<h5 class="devil"> <i class='fa fa-bus'></i> TRACK THE SCHOOL BUS </h5>
+				            			<hr>
+				            			<img src='img/bus-map.jpg' style='height:400px; width:100%; object-fit:cover;border:solid 2px #272727' />
+				            		</div>	
+
+				            	</div>
+				            </div>
+			            		<!-- End Bus tracking page -->
+			            	<!-- Begin Activities page -->
+			            	<div id='activities-page' class='vanish'>
+				            	<div class="card">
+				            		<div class="card-body height-perfection">
+				            			<H5 class='upper devil'><i class='fa fa-calendar'></i> ACTIVITIES </H5>
+				            			<hr>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>Class 5 students will be going on a street sho at <span class='text text-danger'>10:00am</span> to showcase their talents. </p>
+				            				
+				            			</div>
+				            			<div class='ann-text clearfix'>
+				            				<p class='perfecto-color'>The Math and Science club has a competition at <span class='text text-danger'>10:00am</span> all parents are invited </p>
+
+				            			</div>
+				            			
+				            		</div>	
+
+				            	</div>
+				            </div>
+			            		<!-- End Activities page -->
+			            	<!-- Begin Contact-US page -->
+			            	<div id='contact-page' class='vanish'>
+				            	<div class="card">
+				            		<div class="card-body height-perfection">
+				            			<H5 class='upper devil'><i class='fa fa-calendar'></i> CONTACTS </H5>
+				            			<hr>
+				            			<div class='row'>
+					            			<div class='col-md-4'> 
+					            				<center>
+						            				<p class='perfecto-color'><i class='fa fa-user'></i> Mrs. Adwoa Dosu (Administrator)</p>
+						            				<p class='perfecto-color'><i class='fa fa-phone'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            					<p class='perfecto-color'><i class='fa fa-whatsapp'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            				</center>
+
+					            			</div>
+					            			<div class='col-md-4'> 
+					            				<center>
+						            				<p class='perfecto-color'><i class='fa fa-user'></i> Mrs. Adwoa Dosu (Administrator)</p>
+						            				<p class='perfecto-color'><i class='fa fa-phone'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            					<p class='perfecto-color'><i class='fa fa-whatsapp'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            				</center>
+
+					            			</div>
+					            			<div class='col-md-4'> 
+					            				<center>
+						            				<p class='perfecto-color'><i class='fa fa-user'></i> Mrs. Adwoa Dosu (Administrator)</p>
+						            				<p class='perfecto-color'><i class='fa fa-phone'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            					<p class='perfecto-color'><i class='fa fa-whatsapp'></i> Mrs. Adwoa Dosu (Administrator)</p>
+					            				</center>
+
+					            			</div>
+					            		</div>
+				            		</div>	
+
+				            	</div>
+				            </div>
+			            		<!-- End Contact-us page -->
+			            	<!-- BEGIN OPTIONS FOR SCHOOL -->
+							<div id='options-for-school' style='display:none'> 
+				        		<div class='row'>
+				        			
+				        				<!-- activities -->
+				        			<div class='col-md-6'>
+				        				<div class='card menu-option'id='activity' style='margin-bottom:10px;'> 
+				        					<div class="card-body">
+				        						<center>
+				        							<i class="fa fa-calendar perfecto-color options-icon"></i>
+				        							<h3 class='devil upper'>ACTIVITIES</h3>
+				        						</center>
+				        					</div>
+				        				</div>
+				        			</div>
+				        				<!-- end activities -->
+				        				<!-- Bus Tracking -->
+				        			<div class='col-md-6'>
+				        				<div class='card menu-option' id='bus' style='margin-bottom:10px;'> 
+				        					<div class="card-body">
+				        						<center>
+				        							<i class="fa fa-bus perfecto-color options-icon"></i>
+				        							<h3 class='devil upper'>BUS TRACKING</h3>
+				        						</center>
+				        					</div>
+				        				</div>
+				        			</div>
+				        				<!-- End Bus Tracking -->
+				        					<!-- Contact Us -->
+				        			<div class='col-md-6'>
+				        				<div class='card menu-option' id='contact' style='margin-bottom:10px;'> 
+				        					<div class="card-body">
+				        						<center>
+				        							<i class="fa fa-phone perfecto-color options-icon"></i>
+				        							<h3 class='devil upper'>CONTACT US</h3>
+				        						</center>
+				        					</div>
+				        				</div>
+				        			</div>
+				        			<!-- End Contact Us-->
+				        			<!-- Suggestion Box -->
+				        			<div class='col-md-6'>
+				        				<div class='card menu-option' id='suggestion-box' style='margin-bottom:10px;'> 
+				        					<div class="card-body">
+				        						<center>
+				        							<i class="fa fa-comment perfecto-color options-icon"></i>
+				        							<h3 class='devil upper'>SUGGESTION BOX</h3>
+				        						</center>
+				        					</div>
+				        				</div>
+				        			</div>
+				        				<!-- End suggestion box -->
+				        					<!-- Begin announcement -->
+
+				        			<div class='col-md-6'>
+				        				<div class='card menu-option' id='announcement' style='margin-bottom:10px;'> 
+				        					<div class="card-body">
+				        						<center>
+				        							<i class="fa fa-bullhorn perfecto-color options-icon"></i>
+				        							<h3 class='devil upper menu-txt'>ANNOUNCEMENTS</h3>
+				        						</center>
+				        					</div>
+				        				</div>
+				        			</div>
+				        				<!-- End announcement -->
+				        		</div>
+				        	</div>
+	        			<!-- END OPTIONS FOR SCHOOL -->
+	        		</div>
+	        				<!-- END PAGES -->       				
+		         </div>
+			</div>
+			
+		</div>	
+			<!-- Begin sign in page -->
+			<input type="hidden" id='old-div'value='sign-in-page' name="">
+			<input type="hidden" id='sub-old-div' name="">
+			<div id='sign-in-page'>
+				<div class="col-md-6 offset-md-3">
+					<div class = 'master-div'>
+					<form action='' methond='' >
+					      <div class="md-form">
+						        <input type="email" id="materialLoginFormEmail" class="form-control" style = 'color:white;'>
+						        <label for="materialLoginFormEmail">E-mail</label>
+					      </div>
+					      <div class="md-form">
+						        <input type="password" id="materialLoginFormEmail" class="form-control" style = 'color:white;'>
+						        <label for="materialLoginFormEmail">Password</label>
+					      </div>
+					      <button class='btn btn-success' >Register</button>
+					      <button class='btn btn-primary' id='login-button'>Sign in</button>
+					 </form>
+					</div>
+				</div>	
+			</div>
+				<!-- End of signin page -->
+	</div>
+		<!-- END OF LANDING OVERLAY -->
+		<div class="parent-control">
+			<h1>Parent Look Up <i class="fa fa-search"></i></h1>
+		</div>
+		 <script type="text/javascript" src="booty/js/jquery-3.3.1.min.js"></script>
+	    <!-- Bootstrap tooltips -->
+	    <script type="text/javascript" src="booty/js/popper.min.js"></script>
+	    <!-- Bootstrap core JavaScript -->
+	    <script type="text/javascript" src="booty/js/bootstrap.min.js"></script>
+	    <!-- MDB core JavaScript -->
+	    <script type="text/javascript" src="booty/js/mdb.min.js"></script>
+	    <script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

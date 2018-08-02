@@ -1,0 +1,156 @@
+        
+  <!--          <div class="md-form input-group">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" style='color:white;' placeholder="selet a school ">
+                <div class="input-group-append">
+                    <div class="btn-group">
+                      <button class="btn btn-mdb-color waves-effect m-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class='fa fa-caret-down'></i></button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Ave Maria SCH. of Languages</a>
+                          <a class="dropdown-item" href="#">Deoke Foundation School</a>
+                          <a class="dropdown-item" href="#">Saint Dominic Preparatory School</a>
+                      </div>
+                  </div>
+                </div>
+            </div> -->
+
+
+
+
+
+
+
+
+DROP DOWN 
+<!-- Basic dropdown -->
+<div class="btn-group">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basic dropdown</button>
+
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+
+##FORM 
+<!-- Material form login -->
+<div class="card">
+
+  <h5 class="card-header info-color white-text text-center py-4">
+    <strong>Sign in</strong>
+  </h5>
+
+  <!--Card content-->
+  <div class="card-body px-lg-5 pt-0">
+
+    <!-- Form -->
+    <form class="text-center" style="color: #757575;">
+
+      <!-- Email -->
+      <div class="md-form">
+        <input type="email" id="materialLoginFormEmail" class="form-control">
+        <label for="materialLoginFormEmail">E-mail</label>
+      </div>
+
+      <!-- Password -->
+      <div class="md-form">
+        <input type="password" id="materialLoginFormPassword" class="form-control">
+        <label for="materialLoginFormPassword">Password</label>
+      </div>
+
+      <div class="d-flex justify-content-around">
+        <div>
+          <!-- Remember me -->
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
+            <label class="form-check-label" for="materialLoginFormRemember">Remember me</label>
+          </div>
+        </div>
+        <div>
+          <!-- Forgot password -->
+          <a href="">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Sign in button -->
+      <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
+
+      <!-- Register -->
+      <p>Not a member?
+        <a href="">Register</a>
+      </p>
+
+      <!-- Social login -->
+      <p>or sign in with:</p>
+      <a type="button" class="btn-floating btn-fb btn-sm">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a type="button" class="btn-floating btn-tw btn-sm">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a type="button" class="btn-floating btn-li btn-sm">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a type="button" class="btn-floating btn-git btn-sm">
+        <i class="fa fa-github"></i>
+      </a>
+
+    </form>
+    <!-- Form -->
+
+  </div>
+
+</div>
+<!-- Material form login -->
+##BASIC NAVBAR
+
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Navbar</a></mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>Pricing</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Basic dropdown<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
+                    <div class="divider dropdown-divider"></div>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+<!-- Search form -->
+        <form class="form-inline waves-light" mdbWavesEffect>
+            <div class="md-form mt-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            </div>
+        </form>
+    </links>
+    <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->

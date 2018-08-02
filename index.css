@@ -1,0 +1,93 @@
+body{ 
+	background: #272727;
+	color:white;
+		/*background: url('img/parent-student.jpg') no-repeat center center fixed; 
+		background-size:100%;
+		object-fit: cover;
+		padding:0;*/
+
+
+}
+.menu-option:hover{
+	background:#282828;
+	color:white !important;
+	transition: 0.3s ease-in all; 
+	cursor:pointer;
+}
+.vanish{
+	display: none;
+}
+.height-perfection{
+	min-height: 300px; 
+
+}
+.ann-text{
+		/*announcement text div */
+		padding:15px;
+		margin:10px; 
+		border: solid 0px #808080;
+		border-bottom-width: 2px; 
+
+}
+.profile-pic{
+	height: 120px !important; 
+	width:120px !important;
+	object-fit: cover; 
+	border-radius: 100%; 
+	border:solid 3px #808080;
+}
+.upper{
+	text-transform: uppercase;
+}
+.options-icon{
+	font-size:7rem;
+}
+.perfecto-color{
+	color:rgb(98,97,97) !important;
+}
+.devil{
+	color:black;
+
+}
+.angel{
+	color:white;
+}
+html,body{
+	
+	height:100% !important;
+}
+.master-div{ 
+	margin-top:25%;
+ }
+
+.parent-control{
+	position:relative;
+	bottom:220px;
+	margin-left:-70px;
+	opacity: 0;
+	
+}
+
+.landing-overlay{
+	height:100% !important; 
+	width:100% !important;
+}
+
+.my-nav-finish{
+	height:60px; 
+	padding:15px !important; 
+	background-color: orange; 
+	color:black;
+}
+.my-nav-item{ 
+	margin:10px;
+	text-align:center;
+	font-size:1rem;
+	margin-top:1px;
+	
+ }
+
+ .my-link{
+ 	color:black;
+ }
+ 
